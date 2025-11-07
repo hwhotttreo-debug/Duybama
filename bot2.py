@@ -15,7 +15,7 @@ from datetime import datetime
 from typing import Dict, Any
 
 # Nhập dữ liệu khi khởi chạy (bỏ input đi)
-TOKEN = "MTQzNjQwODc5NTIwMTkyOTI0Ng.Gih8ny.WlaSUcMdcdp1hsG43j2oPfYrWSnzqkvDNCE4NQ"
+TOKEN = "MTQzNjQwODc5NTIwMTkyOTI0Ng.GDg4HO.RqtH7nUYzbGI2NErClSISOwbKqcznRkoVJCowA"
 IDADMIN_GOC = 1259541498278707213  # dán ID Discord của bạn vào đây (bỏ ngoặc kép)
 
 intents = discord.Intents.default()
