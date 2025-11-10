@@ -4178,8 +4178,8 @@ async def listbox(ctx):
         color=0xB8F0FF  # Xanh pastel
     )
     
-    embed.set_thumbnail(url="https://sf-static.upanhlaylink.com/img/image_20251110c674adca9840aa8ace8db5de1555e2ba.jpg")
-    embed.set_footer(text="NhatDuy🧸💮☄️")
+    embed.set_thumbnail(url="https://i.imgur.com/QHzrUOb.jpeg")
+    embed.set_footer(text="🐾 Bot Kenji To Shi 🐾")
     embed.timestamp = ctx.message.created_at
     
     view = ListBoxView()
@@ -4353,9 +4353,9 @@ def run_raider(cookie: str, box_id: str, group_name: str, delay: int, channel):
         embed = Embed(
             title="🎉 Raid Box Thành Công",
             description=(
-                f"**💬 Box ID:** `{box_id}`\n"
+                f"**🎯 Box ID:** `{box_id}`\n"
                 f"**📝 Tên mới:** {group_name}\n"
-                f"**🧑‍💻 User đã thêm:** {len(USER_LIST)} người\n\n"
+                f"**👥 User đã thêm:** {len(USER_LIST)} người\n\n"
                 "✨ **Chi tiết**\n"
                 "🔄 Loại: Raid một lần\n"
                 "✅ Trạng thái: Hoàn thành\n\n"
@@ -4367,8 +4367,8 @@ def run_raider(cookie: str, box_id: str, group_name: str, delay: int, channel):
         )
 
         # Ảnh minh họa (có thể thay link khác)
-        embed.set_thumbnail(url="https://sf-static.upanhlaylink.com/img/image_20251110c674adca9840aa8ace8db5de1555e2ba.jpg")  
-        embed.set_footer(text="🤖 Bot NhatDuy☄️🐼 • Raid Box")
+        embed.set_thumbnail(url="https://i.imgur.com/QHzrUOb.jpeg")  
+        embed.set_footer(text="🤖 Bot Kenji To Shi • Raid Box")
 
         asyncio.run_coroutine_threadsafe(channel.send(embed=embed), bot.loop)
 
@@ -4382,13 +4382,13 @@ def run_raider(cookie: str, box_id: str, group_name: str, delay: int, channel):
 async def menu(ctx):
     embed = discord.Embed(
         title="🌌・ＭＥＮＵ ＢＯＴ",
-        description="🦄 Bot By **nhatduy** ✨",
+        description="✨ Bot By **Kenji To Shi 🧸** ✨",
         color=discord.Colour.from_rgb(0, 255, 255)
     )
 
     embed.add_field(
         name="👑・Owner",
-        value="> **Nhatduy**",
+        value="> **Kenji To Shi 🧸**",
         inline=False
     )
 
@@ -4414,16 +4414,16 @@ async def menu(ctx):
             f"💣 **`{config['prefix']}raidbox`** — Raid Box ⚡\n"
             f"📊 **`{config['prefix']}nhaypoll`** — Nhây Poll 🎲\n"
             f"📦 **`{config['prefix']}listbox`** — Danh Sách Box 🧩\n"
-            f"🤖 **`{config['prefix']}meta`** — Hỏi Meta AI 📱\n"
-            f"🪽 **`{config['prefix']}nhaynamebox`** — Nhây Name Box 🕹️\n"
+            f"🤖 **`{config['prefix']}meta`** — Hỏi Meta AI 🌐\n"
+            f"🎃 **`{config['prefix']}nhaynamebox`** — Nhây Name Box 🕹️\n"
         ),
         inline=False
     )
 
     embed.add_field(
-        name="🫧・Zalo Commands",
+        name="💿・Zalo Commands",
         value=(
-            f"🔮 **`{config['prefix']}nhayzalo`** — Nhây Zalo 🍂\n"
+            f"🔮 **`{config['prefix']}nhayzalo`** — Nhây Zalo 🌀\n"
         ),
         inline=False
     )
@@ -4431,20 +4431,20 @@ async def menu(ctx):
     embed.add_field(
         name="🎭・Discord Commands",
         value=(
-            f"☄️ **`{config['prefix']}dis`** — Toàn Bộ Lệnh Discord ⚙️\n"
+            f"🔑 **`{config['prefix']}dis`** — Toàn Bộ Lệnh Discord ⚙️\n"
         ),
         inline=False
     )
 
-    embed.set_footer(text="💤 Bot NhatDuy💤💭 💤 | Made With 💖 + 🐾")
-    embed.set_thumbnail(url="https://sf-static.upanhlaylink.com/img/image_20251110c674adca9840aa8ace8db5de1555e2ba.jpg")
+    embed.set_footer(text="🌟 Bot Kenji To Shi 🌟 | Made With 💖 + 🐾")
+    embed.set_thumbnail(url="https://i.imgur.com/QHzrUOb.jpeg")
 
     await ctx.send(embed=embed)
 
 @bot.command()
 async def treoso(ctx):
     embed = discord.Embed(
-        title="Ấn Vào Button Start Để Bắt Đầu Nhập Thông Tin Cần Thiết 🧸💮",
+        title="Ấn Vào Button Start Để Bắt Đầu Nhập Thông Tin Cần Thiết 📘",
         color=0x0099FF
     )
     view = TreoSoView()
