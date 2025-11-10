@@ -120,12 +120,14 @@ def save_config(config):
         json.dump(config, f, ensure_ascii=False, indent=4)
 
 def create_initial_config():
-    token = input("Nhập Token Bot Discord Của Bạn > ")
-    owner_vip_id = input("Nhập Owner VIP ID > ")
+    token = input("MTQzMTU3MzU1NTU4NTM1MTY4MA.GW1aN5.D9YxGGw_1IAZ0_dkZMbNI5k_ssAhsDDG4AWUm0 > ")
+    owner_vip_id = input("1259541498278707213 > ")
     prefix = input("Nhập Prefix Cho Bot > ")
     config = {
-        "tokenbot": token,
-        "prefix": prefix,
+        "MTQzMTU3MzU1NTU4NTM1MTY4MA.GW1aN5.D9YxGGw_1IAZ0_dkZMbNI5k_ssAhsDDG4AWUm0": token,
+        config = {
+    "prefix": "!menu"
+}
         "ownerVIP": owner_vip_id,
         "task": {}
     }
